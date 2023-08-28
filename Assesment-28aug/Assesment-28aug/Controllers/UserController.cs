@@ -28,7 +28,7 @@ namespace Assesment_28aug.Controllers
 
 
 
-        [HttpPost("posts")]
+        [HttpPost("Register")]
         public IActionResult Register([FromBody] User user)
         {
             var obj = _userrepo.Register(user);
